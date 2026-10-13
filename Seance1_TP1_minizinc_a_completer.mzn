@@ -34,7 +34,9 @@
 % Syntaxe MiniZinc :  var <min>..<max> : nom_variable;
 % (choisissez des bornes larges, par exemple 0.0 a 1000.0)
 %
-% A COMPLETER (2 lignes) :
+% Variables continues positives, avec les bornes proposées :
+var 0.0..1000.0: u;
+var 0.0..1000.0: c;
 
 
 % --- ETAPE 2 : contraintes de ressources ------------------------------------
@@ -42,14 +44,18 @@
 % ressource), en reprenant les coefficients de la table ci-dessus.
 % Syntaxe MiniZinc :  constraint <expression> <= <valeur>;
 %
-% A COMPLETER (3 lignes) :
+% Consommation hebdomadaire <= quantité disponible :
+constraint 4.0*u + 6.0*c <= 480.0;
+constraint 6.0*u + 15.0*c <= 900.0;
+constraint 2.0*u + 2.0*c <= 240.0;
 
 
 % --- ETAPE 3 : objectif ------------------------------------------------------
 % Maximisez la marge totale hebdomadaire = 120*u + 200*c.
 % Syntaxe MiniZinc :  solve maximize <expression>;
 %
-% A COMPLETER (1 ligne) :
+% Marge totale hebdomadaire :
+solve maximize 120.0*u + 200.0*c;
 
 
 % --- affichage (deja ecrit -- rien a modifier ici) --------------------------
