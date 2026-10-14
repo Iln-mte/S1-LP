@@ -1,7 +1,7 @@
 % ============================================================================
-% Optimisation pour l'IA — Séance 2 — TD-TP PPC, Exercice 6
-% Ordonnancement ExedBike en MiniZinc — même instance qu'au TP2 (Exercice 4,
-% CP-SAT/OR-Tools) : 3 lots sur une même ligne, non-chevauchement, minimiser
+% Optimisation pour l'IA — Séance 2 — TP2 PPC, Exercice 3
+% Ordonnancement ExedBike en MiniZinc — même instance que le cours
+% (CP-SAT/OR-Tools) : 3 lots sur une même ligne, non-chevauchement, minimiser
 % le makespan. En MiniZinc, la contrainte globale de non-chevauchement
 % d'intervalles est "disjunctive".
 % ============================================================================

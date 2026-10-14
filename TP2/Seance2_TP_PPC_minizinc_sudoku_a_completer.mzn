@@ -1,5 +1,5 @@
 % ============================================================================
-% Optimisation pour l'IA — Séance 2 — TD-TP PPC, Exercice 5
+% Optimisation pour l'IA — Séance 2 — TP2 PPC, Exercice 2
 % Le Sudoku du cours, en MiniZinc — grille 9x9 partiellement remplie (30
 % indices donnés). Sa solution est EXACTEMENT la grille 9x9 des diapositives
 % (section Modélisation PPC, "Le même modèle, à toutes les échelles").

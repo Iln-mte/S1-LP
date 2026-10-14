@@ -1,10 +1,10 @@
 % ============================================================================
-% Optimisation pour l'IA — Séance 2 — TD-TP PPC, Exercice 4
+% Optimisation pour l'IA — Séance 2 — TP2 PPC, Exercice 1
 % Les n reines en MiniZinc — Modèle 1 (compact) vu en cours (Modélisation PPC) :
 % une variable par colonne, son domaine = la ligne occupée.
 % ============================================================================
 
-int: n = 8;  % passez à 8 pour la Question 3 (le problème classique des 8 reines)
+int: n = 8;  % Question 3 ; remplacer 8 par 4 pour la Question 2.
 
 array[1..n] of var 1..n: q;  % q[i] = ligne de la reine de la colonne i
 

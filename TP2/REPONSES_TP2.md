@@ -65,7 +65,7 @@ La résolution sans `-a` donne la grille suivante. L'énumération avec `-a` con
 3 4 5 2 8 6 1 7 9
 ```
 
-La grille obtenue est identique à celle du cours (diapositive 20/50, page 40 du PDF `Seance2.pdf`).
+La grille obtenue est identique à celle du cours.
 
 ### Question 3 - Bonus
 
