@@ -2,7 +2,11 @@
 
 ## Modèle de coût Urban
 
-Les 40 observations synthétiques, entre 50 et 2 000 unités cumulées (graine 7 conservée), sont ajustées par le modèle c(q) = 9 682,85 × q^(-0,555228). La descente de gradient programmée minimise l'erreur quadratique des logarithmes, avec un pas de 0,1. Elle atteint le seuil de gradient de 10^-10 après 114 mises à jour ; l'erreur quadratique moyenne log-log vaut 0,00103054.
+Les 40 observations synthétiques, entre 50 et 2 000 unités cumulées (graine 7 conservée),
+sont ajustées par le modèle c(q) = 9 682,85 × q^(-0,555228).
+La descente de gradient programmée minimise l'erreur quadratique des logarithmes, avec un pas de 0,1.
+Elle atteint le seuil de gradient de 10^-10 après 114 mises à jour ;
+l'erreur quadratique moyenne log-log vaut 0,00103054.
 
 Le paramètre theta = 0,555228 traduit une baisse du coût avec l'expérience : doubler le volume cumulé multiplie le coût estimé par environ 0,681, soit une baisse de 31,9 %. Le paramètre k = 9 682,85 fixe l'échelle du modèle ; sa valeur théorique à une unité est une extrapolation hors de la plage observée.
 
